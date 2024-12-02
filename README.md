@@ -73,3 +73,9 @@ Hello world dans SSh terminal
 les leds:
 ![image](https://github.com/user-attachments/assets/9095f4a6-ec87-4f08-b939-acd157c8043b)
 
+led 1:
+
+```
+echo "1" > /sys/class/leds/fpga_led1/brightness
+
+```

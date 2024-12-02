@@ -79,3 +79,6 @@ led 1:
 echo "1" > /sys/class/leds/fpga_led1/brightness
 
 ```
+
+
+![image](https://github.com/user-attachments/assets/b2013747-b4f5-46ce-9f5f-fc7e78aedab7)

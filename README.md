@@ -87,3 +87,8 @@ echo "1" > /sys/class/leds/fpga_led1/brightness
 
 
 ![WhatsApp Image 2024-12-02 at 17 14 29](https://github.com/user-attachments/assets/2810933a-10dc-4c37-8dd1-76df83204426)
+
+d'autre leds:
+
+![WhatsApp Image 2024-12-02 at 17 15 54](https://github.com/user-attachments/assets/70c9370d-a938-4003-a812-f7caf8f54a08)
+

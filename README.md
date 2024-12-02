@@ -66,3 +66,8 @@ Erreur
 
 ![image](https://github.com/user-attachments/assets/36385ff5-b0c2-4b79-9dda-a1b2a7a46d94)
 
+Hello world dans SSh terminal
+
+![image](https://github.com/user-attachments/assets/aafa0365-a296-452e-8675-283091c75773)
+
+

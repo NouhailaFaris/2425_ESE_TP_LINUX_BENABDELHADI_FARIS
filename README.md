@@ -59,3 +59,8 @@ Exploration des fichier
 hello
 ![image](https://github.com/user-attachments/assets/6e25a9e1-5e87-4d53-a794-0b079dbc4cc7)
 
+Erreur 
+
+![image](https://github.com/user-attachments/assets/7a0ae7b5-965d-4bb5-bab2-aff53cedb963)
+
+

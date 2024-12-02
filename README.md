@@ -33,3 +33,6 @@ taille
 if config :
 
 ![image](https://github.com/user-attachments/assets/8854a7ac-e403-4a9a-a912-5a4afd551e36)
+
+modif 
+![image](https://github.com/user-attachments/assets/9993bbc4-3da1-4e3d-aa99-3f920a1aff36)

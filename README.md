@@ -149,3 +149,9 @@ int main() {
 }
 ```
 ![image](https://github.com/user-attachments/assets/9bb0c7c5-82d8-4d45-b52a-27dc3e2b7c9f)
+
+
+execution du Chenillard dans le SSH
+
+![image](https://github.com/user-attachments/assets/9dc9b490-401d-4d43-8055-dcafbf9d08e1)
+

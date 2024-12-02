@@ -52,4 +52,9 @@ Connexion SSH
 ![image](https://github.com/user-attachments/assets/52f6fb21-5082-4e22-a4f8-6f6d33953bce)
 
 
+Exploration des fichier 
+
+![image](https://github.com/user-attachments/assets/19a888ae-4d52-4c24-9f7f-8cc169631911)
+
+
 

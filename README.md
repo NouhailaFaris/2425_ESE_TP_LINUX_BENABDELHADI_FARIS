@@ -47,3 +47,9 @@ permitEmptyPasswords
 ![image](https://github.com/user-attachments/assets/788bdbda-afab-43fd-8bef-65648f8f56ba)
 
 
+Connexion SSH 
+
+![image](https://github.com/user-attachments/assets/52f6fb21-5082-4e22-a4f8-6f6d33953bce)
+
+
+

@@ -42,4 +42,8 @@ if confi
 Ping 
 
 ![image](https://github.com/user-attachments/assets/79aec3d9-24aa-4ad1-9b5b-a72ba57992b7)
+permitEmptyPasswords
+
+![image](https://github.com/user-attachments/assets/788bdbda-afab-43fd-8bef-65648f8f56ba)
+
 

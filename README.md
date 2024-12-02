@@ -81,4 +81,9 @@ echo "1" > /sys/class/leds/fpga_led1/brightness
 ```
 
 
+
+
 ![image](https://github.com/user-attachments/assets/b2013747-b4f5-46ce-9f5f-fc7e78aedab7)
+
+
+![WhatsApp Image 2024-12-02 at 17 14 29](https://github.com/user-attachments/assets/2810933a-10dc-4c37-8dd1-76df83204426)

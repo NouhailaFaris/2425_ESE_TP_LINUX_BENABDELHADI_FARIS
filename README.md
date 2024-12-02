@@ -70,4 +70,6 @@ Hello world dans SSh terminal
 
 ![image](https://github.com/user-attachments/assets/aafa0365-a296-452e-8675-283091c75773)
 
+les leds:
+![image](https://github.com/user-attachments/assets/9095f4a6-ec87-4f08-b939-acd157c8043b)
 

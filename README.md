@@ -155,9 +155,3 @@ execution du Chenillard dans le SSH
 
 ![image](https://github.com/user-attachments/assets/9dc9b490-401d-4d43-8055-dcafbf9d08e1)
 
-## Le CODEC Audio SGTL5000
-### Configuration préalables
-Pins utilisées pour l’I2C:
-. I2C_SCL : PB10
-. I2C_SDA : PB11
-Ces broches correspondent au I2C2 dans le STM32 L476RG.

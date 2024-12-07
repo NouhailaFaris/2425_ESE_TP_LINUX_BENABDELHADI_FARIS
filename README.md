@@ -83,6 +83,7 @@ Quand on essaie de lancer le programme sur la VM en recoit une Erreur
 
 ![image](https://github.com/user-attachments/assets/7a0ae7b5-965d-4bb5-bab2-aff53cedb963)
 
+Donc on a copier le fichier hello.o sur la carte et comme ca on a pu l'executer 
 
 ![image](https://github.com/user-attachments/assets/36385ff5-b0c2-4b79-9dda-a1b2a7a46d94)
 
@@ -90,7 +91,9 @@ Hello world dans SSh terminal
 
 ![image](https://github.com/user-attachments/assets/aafa0365-a296-452e-8675-283091c75773)
 
-les leds:
+## Accès au matériel
+
+### dossier des leds:
 
 ![image](https://github.com/user-attachments/assets/9095f4a6-ec87-4f08-b939-acd157c8043b)
 
@@ -106,12 +109,13 @@ echo "1" > /sys/class/leds/fpga_led1/brightness
 
 ![WhatsApp Image 2024-12-02 at 17 14 29](https://github.com/user-attachments/assets/2810933a-10dc-4c37-8dd1-76df83204426)
 
-d'autre leds:
+d'autre leds(led 2):
 
 ![WhatsApp Image 2024-12-02 at 17 15 54](https://github.com/user-attachments/assets/70c9370d-a938-4003-a812-f7caf8f54a08)
 
+## Chenillard
 
-Teest.c
+Réalisation du code du Chenillard (Teest.c)
 
 ```
 #include <stdio.h>
@@ -170,7 +174,7 @@ int main() {
 ![image](https://github.com/user-attachments/assets/9bb0c7c5-82d8-4d45-b52a-27dc3e2b7c9f)
 
 
-execution du Chenillard dans le SSH
+### execution du Chenillard dans le SSH
 
 ![image](https://github.com/user-attachments/assets/9dc9b490-401d-4d43-8055-dcafbf9d08e1)
 

@@ -65,7 +65,13 @@ Apres l'utilisation du script d'augmentation de taille en retrouve nos 32 go
 
 ## Configuration réseau
 
-## if config :
+## Commande `ifconfig`
+
+La commande **`ifconfig`** est utilisée pour afficher et configurer les interfaces réseau. Elle est essentielle dans ce TP pour vérifier l'état du réseau de la carte.
+
+### Utilisations principales :
+- Vérifier si une adresse IP a été attribuée à la carte après la configuration réseau.
+- Diagnostiquer les connexions réseau et obtenir des informations sur les interfaces.
 
 
 ![image](https://github.com/user-attachments/assets/8854a7ac-e403-4a9a-a912-5a4afd551e36)
@@ -87,6 +93,9 @@ J'ai pu ping la machine depuis mon PC
 ![image](https://github.com/user-attachments/assets/79aec3d9-24aa-4ad1-9b5b-a72ba57992b7)
 
 ## permitEmptyPasswords
+
+- Permet d'autoriser les connexions SSH à des comptes sans mot de passe.  
+- Simplifie les connexions dans des environnements de test ou de développement, comme dans ce TP, pour interagir facilement avec le système embarqué.  
 
 ![image](https://github.com/user-attachments/assets/788bdbda-afab-43fd-8bef-65648f8f56ba)
 

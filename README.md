@@ -12,7 +12,7 @@
 
 ### Utilisation d'un logiciel de liaison série
 1. Mode de connexion : Serial.
-2. Port série : COMX (remplacez X par le numéro trouvé).
+2. Port série : COM10.
 3. Vitesse : 115200 bauds.
    
 ![image](https://github.com/user-attachments/assets/d61ea4de-69fb-4e8f-8611-320707ef7b16)

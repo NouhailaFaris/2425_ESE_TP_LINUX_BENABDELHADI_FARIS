@@ -11,8 +11,6 @@ Ce TP, réalisé par **Mohamed Benabdelhadi** et **Nouhaila Faris**, utilise la 
 3. **Développement de modules noyaux**
 
 ## Préparation de la carte SD
-
-### Préparation de la carte SD
 ### Utilisation de Win32DiskImager
 
 Nous utilisons **Win32DiskImager** pour flasher une carte SD avec une image système. Cette étape est cruciale dans les projets de systèmes embarqués, comme dans ce TP utilisant Linux embarqué sur la carte **VEEK-MT2S**.

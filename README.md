@@ -15,7 +15,7 @@ Ce TP, réalisé par **Mohamed Benabdelhadi** et **Nouhaila Faris**, utilise la 
 
 Nous utilisons **Win32DiskImager** pour flasher une carte SD avec une image système. Cette étape est cruciale dans les projets de systèmes embarqués, comme dans ce TP utilisant Linux embarqué sur la carte **VEEK-MT2S**.
 
-## Utilisation de PuTTY
+### Utilisation de PuTTY
 
 **PuTTY** est un client de communication essentiel pour interagir avec des systèmes embarqués comme la carte **VEEK-MT2S** dans ce TP. Il permet d'établir des connexions série et SSH avec le système Linux embarqué.
 

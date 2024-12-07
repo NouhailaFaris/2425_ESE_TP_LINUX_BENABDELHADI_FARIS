@@ -46,6 +46,14 @@ On remarque que au début nous avons un total de 5go en stockage sachant qu'on a
 
 ![image](https://github.com/user-attachments/assets/e8435da5-a060-4dbc-92f2-5fa204f26738)
 
+## Gestion de l'espace disque sur la carte SD
+
+### Commandes utilisées
+
+- **`df -h`** : Affiche l'espace disque utilisé et disponible dans un format lisible.  
+- **`./expand_rootfs.sh`** : Étend la partition principale pour utiliser tout l'espace disponible sur la carte SD.  
+- **`./resize2fs_once`** : Redimensionne le système de fichiers pour occuper toute la partition étendue.
+
 ![image](https://github.com/user-attachments/assets/de458e7d-c605-4c9e-90e7-7cf30a5fad59)
 
 

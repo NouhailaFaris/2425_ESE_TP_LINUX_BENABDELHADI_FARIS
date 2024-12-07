@@ -1,4 +1,15 @@
 # 2425_TP_LINUX_BENABDELHADI_FARIS
+
+## Introduction
+
+Ce TP, réalisé par **Mohamed Benabdelhadi** et **Nouhaila Faris**, utilise la carte **VEEK-MT2S** et a pour objectif de manipuler un système **Linux embarqué**. 
+
+## Objectifs spécifiques
+
+1. **Prise en main de l'environnement Linux embarqué** 
+2. **Configuration matérielle et logicielle** 
+3. **Développement de modules noyaux**
+
 ## Préparation de la carte SD
 
 ### Préparation de la carte SD

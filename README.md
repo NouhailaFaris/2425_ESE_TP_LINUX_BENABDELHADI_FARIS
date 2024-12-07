@@ -99,7 +99,6 @@ J'ai pu ping la machine depuis mon PC
 
 ![image](https://github.com/user-attachments/assets/788bdbda-afab-43fd-8bef-65648f8f56ba)
 
-
 ## Connexion SSH 
 
 ![image](https://github.com/user-attachments/assets/52f6fb21-5082-4e22-a4f8-6f6d33953bce)
@@ -108,6 +107,51 @@ J'ai pu ping la machine depuis mon PC
 ## Exploration des fichier 
 
 ![image](https://github.com/user-attachments/assets/19a888ae-4d52-4c24-9f7f-8cc169631911)
+
+## Exploration des fichiers système : `/proc` et `/sys/class`
+
+Dans ce TP, nous explorons des répertoires et fichiers spécifiques au système Linux embarqué. Ces fichiers permettent de mieux comprendre l'interaction entre le matériel et le noyau.
+
+### 1. `/proc`
+
+Le répertoire **`/proc`** est un système de fichiers virtuel qui fournit une vue en temps réel des données système. Son contenu est généré dynamiquement par le noyau et reflète l'état actuel du matériel.
+
+#### Fichiers clés :
+- **`/proc/cpuinfo`** :
+  - Contient des informations détaillées sur le processeur, comme son modèle, sa fréquence, et le nombre de cœurs.
+  - Utile pour comprendre les capacités matérielles de votre système embarqué.
+- **`/proc/ioports`** :
+  - Affiche les plages d'adresses des ports d'entrée/sortie utilisés par le matériel.
+  - Permet d'identifier quels périphériques matériels occupent quelles plages d'E/S.
+- **`/proc/iomem`** :
+  - Liste les plages d'adresses mémoire réservées pour les périphériques matériels.
+  - Permet de visualiser la manière dont le matériel est mappé en mémoire.
+- **`/proc/device-tree/sopc@0`** :
+  - Contient les données extraites du **Device Tree**, qui décrit la structure matérielle.
+  - Utile pour faire correspondre les périphériques physiques et leurs adresses mémoire logiques.
+
+---
+
+### 2. `/sys/class`
+
+Le répertoire **`/sys/class`** fait partie du système de fichiers **sysfs**, qui expose une interface directe au noyau pour accéder aux périphériques matériels.
+
+#### Entrées clés :
+- **`/sys/class/leds/fpga_ledX/`** :
+  - Fournit une interface pour contrôler les LEDs de la carte FPGA.
+  - Exemple d'utilisation pour allumer une LED :
+    ```bash
+    echo "1" > /sys/class/leds/fpga_led1/brightness
+    ```
+  - Exemple pour éteindre la LED :
+    ```bash
+    echo "0" > /sys/class/leds/fpga_led1/brightness
+    ```
+
+---
+
+Ces fichiers permettent d'accéder directement au matériel, de diagnostiquer son fonctionnement et de configurer certains périphériques. Ils sont essentiels pour comprendre et manipuler un système Linux embarqué.
+
 
 # hello world !
 

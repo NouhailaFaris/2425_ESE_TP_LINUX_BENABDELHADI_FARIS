@@ -29,7 +29,6 @@ On remarque que au début nous avons un total de 5go en stockage sachant qu'on a
 
 ![image](https://github.com/user-attachments/assets/de458e7d-c605-4c9e-90e7-7cf30a5fad59)
 
-taille
 
 ![image](https://github.com/user-attachments/assets/9418fee4-4fed-4b9e-8dee-9b43137ecc52)
 

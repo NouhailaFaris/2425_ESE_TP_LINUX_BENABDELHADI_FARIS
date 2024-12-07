@@ -35,13 +35,17 @@ if config :
 ![image](https://github.com/user-attachments/assets/8854a7ac-e403-4a9a-a912-5a4afd551e36)
 
 modif 
+
 ![image](https://github.com/user-attachments/assets/9993bbc4-3da1-4e3d-aa99-3f920a1aff36)
-if confi 
+
+if confi
+
 ![image](https://github.com/user-attachments/assets/959f6582-c77c-460f-a285-11d3de96d867)
 
 Ping 
 
 ![image](https://github.com/user-attachments/assets/79aec3d9-24aa-4ad1-9b5b-a72ba57992b7)
+
 permitEmptyPasswords
 
 ![image](https://github.com/user-attachments/assets/788bdbda-afab-43fd-8bef-65648f8f56ba)
@@ -57,6 +61,7 @@ Exploration des fichier
 ![image](https://github.com/user-attachments/assets/19a888ae-4d52-4c24-9f7f-8cc169631911)
 
 hello
+
 ![image](https://github.com/user-attachments/assets/6e25a9e1-5e87-4d53-a794-0b079dbc4cc7)
 
 Erreur 
@@ -71,6 +76,7 @@ Hello world dans SSh terminal
 ![image](https://github.com/user-attachments/assets/aafa0365-a296-452e-8675-283091c75773)
 
 les leds:
+
 ![image](https://github.com/user-attachments/assets/9095f4a6-ec87-4f08-b939-acd157c8043b)
 
 led 1:
@@ -79,9 +85,6 @@ led 1:
 echo "1" > /sys/class/leds/fpga_led1/brightness
 
 ```
-
-
-
 
 ![image](https://github.com/user-attachments/assets/b2013747-b4f5-46ce-9f5f-fc7e78aedab7)
 
@@ -148,6 +151,7 @@ int main() {
     return 0;
 }
 ```
+
 ![image](https://github.com/user-attachments/assets/9bb0c7c5-82d8-4d45-b52a-27dc3e2b7c9f)
 
 

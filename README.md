@@ -13,7 +13,15 @@ Ce TP, réalisé par **Mohamed Benabdelhadi** et **Nouhaila Faris**, utilise la 
 ## Préparation de la carte SD
 
 ### Préparation de la carte SD
-## Etapes:
+### Utilisation de Win32DiskImager
+
+Nous utilisons **Win32DiskImager** pour flasher une carte SD avec une image système. Cette étape est cruciale dans les projets de systèmes embarqués, comme dans ce TP utilisant Linux embarqué sur la carte **VEEK-MT2S**.
+
+## Utilisation de PuTTY
+
+**PuTTY** est un client de communication essentiel pour interagir avec des systèmes embarqués comme la carte **VEEK-MT2S** dans ce TP. Il permet d'établir des connexions série et SSH avec le système Linux embarqué.
+
+### Etapes:
 1. Lancement du Win32DiskImager.
 2. Sélection du  l’image (VEEK_MT2S_LXDE.img).
 3. Sélection du lecteur .

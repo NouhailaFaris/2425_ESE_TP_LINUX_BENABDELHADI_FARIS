@@ -23,6 +23,8 @@
 
 ![image](https://github.com/user-attachments/assets/7ce8a41f-8ce5-4c7c-996c-8ac23ebc83c7)
 
+On remarque que au début nous avons un total de 5go en stockage sachant qu'on a utilisé une carte sd de 32 go 
+
 ![image](https://github.com/user-attachments/assets/e8435da5-a060-4dbc-92f2-5fa204f26738)
 
 ![image](https://github.com/user-attachments/assets/de458e7d-c605-4c9e-90e7-7cf30a5fad59)

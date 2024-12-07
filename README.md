@@ -33,6 +33,8 @@ taille
 
 ![image](https://github.com/user-attachments/assets/9418fee4-4fed-4b9e-8dee-9b43137ecc52)
 
+Apres l'utilisation du script d'augmentation de taille en retrouve nos 32 go 
+
 ![image](https://github.com/user-attachments/assets/f31da8d7-b78a-4f53-bc1d-372a0053ec0e)
 
 if config :

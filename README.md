@@ -23,6 +23,8 @@
 
 ![image](https://github.com/user-attachments/assets/7ce8a41f-8ce5-4c7c-996c-8ac23ebc83c7)
 
+## Une fois connecté au SoC :
+
 On remarque que au début nous avons un total de 5go en stockage sachant qu'on a utilisé une carte sd de 32 go 
 
 ![image](https://github.com/user-attachments/assets/e8435da5-a060-4dbc-92f2-5fa204f26738)
@@ -36,41 +38,48 @@ Apres l'utilisation du script d'augmentation de taille en retrouve nos 32 go
 
 ![image](https://github.com/user-attachments/assets/f31da8d7-b78a-4f53-bc1d-372a0053ec0e)
 
-if config :
+## Configuration réseau
+
+## if config :
+
 
 ![image](https://github.com/user-attachments/assets/8854a7ac-e403-4a9a-a912-5a4afd551e36)
 
-modif 
+modification du fichier interfaces
 
 ![image](https://github.com/user-attachments/assets/9993bbc4-3da1-4e3d-aa99-3f920a1aff36)
 
-if confi
+## if config:
+
+notre adresse IP: 192.168.0.235
 
 ![image](https://github.com/user-attachments/assets/959f6582-c77c-460f-a285-11d3de96d867)
 
-Ping 
+## Ping:
+
+J'ai pu ping la machine depuis mon PC 
 
 ![image](https://github.com/user-attachments/assets/79aec3d9-24aa-4ad1-9b5b-a72ba57992b7)
 
-permitEmptyPasswords
+## permitEmptyPasswords
 
 ![image](https://github.com/user-attachments/assets/788bdbda-afab-43fd-8bef-65648f8f56ba)
 
 
-Connexion SSH 
+## Connexion SSH 
 
 ![image](https://github.com/user-attachments/assets/52f6fb21-5082-4e22-a4f8-6f6d33953bce)
 
-
-Exploration des fichier 
+# Découverte de la cible
+## Exploration des fichier 
 
 ![image](https://github.com/user-attachments/assets/19a888ae-4d52-4c24-9f7f-8cc169631911)
 
-hello
+# hello world !
 
 ![image](https://github.com/user-attachments/assets/6e25a9e1-5e87-4d53-a794-0b079dbc4cc7)
 
-Erreur 
+Quand on essaie de lancer le programme sur la VM en recoit une Erreur 
 
 ![image](https://github.com/user-attachments/assets/7a0ae7b5-965d-4bb5-bab2-aff53cedb963)
 

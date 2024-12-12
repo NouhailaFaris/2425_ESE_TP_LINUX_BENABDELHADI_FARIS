@@ -255,4 +255,15 @@ int main() {
 ### execution du Chenillard dans le SSH
 
 ![image](https://github.com/user-attachments/assets/9dc9b490-401d-4d43-8055-dcafbf9d08e1)
+# 2 Modules kernel (TP2)
 
+### Limites et problèmes de cette méthode
+
+- **Manque d'isolation** : 
+  L'accès direct au matériel contourne l'abstraction offerte par le noyau, ce qui peut provoquer des conflits si d'autres parties du système utilisent les mêmes ressources.
+  
+- **Sécurité** : 
+  L'accès direct peut exposer le système à des comportements imprévisibles si les permissions ou adresses sont mal configurées.
+  
+- **Prototypage uniquement** : 
+  Cette méthode est utile pour tester rapidement une fonctionnalité, mais elle n'est pas adaptée pour un déploiement en production.

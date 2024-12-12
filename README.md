@@ -321,3 +321,6 @@ L'erreur qu'on a :**ERROR: could not insert module hello.ko: File exists**, indi
 
 ![image](https://github.com/user-attachments/assets/a2fc2656-da65-4788-ad44-8c8846d9cf92)
 
+## Utilisation de paramètres au chargement du module et création d'une entrée dans /proc.
+
+![image](https://github.com/user-attachments/assets/4350da24-52d0-4a65-9817-c70d27e2f500)

@@ -257,6 +257,8 @@ int main() {
 ![image](https://github.com/user-attachments/assets/9dc9b490-401d-4d43-8055-dcafbf9d08e1)
 # 2 Modules kernel (TP2)
 
+![image](https://github.com/user-attachments/assets/a2489e51-08d7-4932-93c3-628591a12452)
+
 ### Limites et problèmes de cette méthode
 
 - **Manque d'isolation** : 

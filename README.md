@@ -278,22 +278,24 @@ On a créer le fichier regictre2.c pour faire un chenillard des 3 premiers leds 
 
 ![image](https://github.com/user-attachments/assets/162572aa-547f-41e1-9fc9-615c590100e5)
 
+Apres le televhargement du makefile et du hello.c on a executer make 
+
 ![image](https://github.com/user-attachments/assets/fd128dee-4536-4e4d-a2e7-ee3562a2acc3)
 
-### Test modinfo vrai  :
+### Test modinfo : (Affiche les informations sur le module)
 ![image](https://github.com/user-attachments/assets/95c98c1c-2005-4757-b9a4-38765a59c32b)
 
-### Test insmod :
+### Test insmod : (Charge le module dans le noyau)
 ![image](https://github.com/user-attachments/assets/10fa03e9-e714-45a1-86ea-d55b28d64d71)
 
-### Test dmesg :
+### Test dmesg : (Vérifie les logs système pour valider l'exécution)
 ![image](https://github.com/user-attachments/assets/3161337b-939c-4e57-8cff-343aaeb46853)
 
-### Test rmmod :
+### Test rmmod :( Décharge le module)
 ![image](https://github.com/user-attachments/assets/30e66b43-2a54-453b-8a20-f1bd810a42ef)
 
 
-### Test lsmod :
+### Test lsmod : (afficher la liste des modules actuellement chargés dans le noyau Linux)
 ![image](https://github.com/user-attachments/assets/6cb26558-ab0d-451e-b3b0-e020b9ba8458)
 
 ```
@@ -306,11 +308,16 @@ module_param(param, int, S_IRUGO); // Permet de définir un paramètre au charge
 MODULE_PARM_DESC(param, "A parameter for demonstration");
 ```
 ![image](https://github.com/user-attachments/assets/38a05a3f-a058-4a8c-96d7-cd1d8b53a56b)
-L'erreur qu'on a , ERROR: could not insert module hello.ko: File exists, indique que le module hello.ko est déjà chargé dans le noyau.
+
+L'erreur qu'on a :**ERROR: could not insert module hello.ko: File exists**, indique que le module hello.ko est déjà chargé dans le noyau.
+
 ![image](https://github.com/user-attachments/assets/ce5a33c5-a074-4c69-a4e1-33137094426b)
 
-solution :
+**Solution :**
+
 1-Déchargez le module existant
+
 2-Rechargez le module avec un paramètre
+
 ![image](https://github.com/user-attachments/assets/a2fc2656-da65-4788-ad44-8c8846d9cf92)
 

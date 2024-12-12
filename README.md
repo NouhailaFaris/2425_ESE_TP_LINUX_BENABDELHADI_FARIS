@@ -364,6 +364,19 @@ install :
 ![image](https://github.com/user-attachments/assets/cd3cdab9-443b-4154-905d-c985b4ec3e59)
 
 
+### 2.3.2 Récupéreation de la configuration actuelle du noyau
 
+On a envoyé le fichier à la VM et le renommé 
+![WhatsApp Image 2024-12-12 at 11 30 26](https://github.com/user-attachments/assets/c88397b0-fc86-4d57-ae8f-8d67976502d6)
 
+**Configuration du environnement pour la compilation croisée :** (on a <chemin_arm-linux-gnueabihf-> par le chemin correct vers votre compilateur croisé, sans le gcc final. Pour nous c'est /usr/bin/arm-linux-gnueabihf-.)
 
+![WhatsApp Image 2024-12-12 at 11 35 19](https://github.com/user-attachments/assets/478fdea4-b658-4a92-8398-b1d216460934)
+
+**Make prepare:**
+
+![WhatsApp Image 2024-12-12 at 11 36 44](https://github.com/user-attachments/assets/24fafa91-7f7b-4e05-8b2c-ef09c246fb6f)
+
+**Make scripts**
+
+![WhatsApp Image 2024-12-12 at 11 37 36](https://github.com/user-attachments/assets/109ffa57-0925-4aaa-a881-8fdbeae78807)

@@ -282,5 +282,7 @@ On a créer le fichier regictre2.c pour faire un chenillard des 3 premiers leds 
 
 # Test insmod :
 # Test modinfo :
+# Test modinfo :
+# Test modinfo :
 
 

@@ -277,6 +277,7 @@ On a créer le fichier regictre2.c pour faire un chenillard des 3 premiers leds 
 ### Télechargement des paquets pour compilation des modules noyau dans la VM:
 
 ![image](https://github.com/user-attachments/assets/47f59667-4b7a-4528-819a-2b59d9b3888c)
+![image](https://github.com/user-attachments/assets/162572aa-547f-41e1-9fc9-615c590100e5)
 
 ![image](https://github.com/user-attachments/assets/fd128dee-4536-4e4d-a2e7-ee3562a2acc3)
 

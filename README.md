@@ -346,3 +346,6 @@ install :
  obj-m += timer_module.o
 ```
 ![image](https://github.com/user-attachments/assets/35248af6-c30b-4b22-bc10-d789d53c6bf4)
+
+## Timer:
+![image](https://github.com/user-attachments/assets/e3db74cd-8286-4884-9ac7-b8d47fce6894)

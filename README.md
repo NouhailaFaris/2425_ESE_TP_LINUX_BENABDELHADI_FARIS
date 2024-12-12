@@ -345,3 +345,4 @@ install :
  ```
  obj-m += timer_module.o
 ```
+![image](https://github.com/user-attachments/assets/35248af6-c30b-4b22-bc10-d789d53c6bf4)

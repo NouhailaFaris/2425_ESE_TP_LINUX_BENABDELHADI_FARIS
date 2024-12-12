@@ -269,3 +269,8 @@ int main() {
   
 - **Prototypage uniquement** : 
   Cette méthode est utile pour tester rapidement une fonctionnalité, mais elle n'est pas adaptée pour un déploiement en production.
+
+### Télechargement des paquets pour compilation des modules noyau dans la VM:
+
+![image](https://github.com/user-attachments/assets/47f59667-4b7a-4528-819a-2b59d9b3888c)
+

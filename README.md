@@ -321,7 +321,7 @@ L'erreur qu'on a :**ERROR: could not insert module hello.ko: File exists**, indi
 
 ![image](https://github.com/user-attachments/assets/a2fc2656-da65-4788-ad44-8c8846d9cf92)
 
-## Utilisation de paramètres au chargement du module et création d'une entrée dans /proc.
+### Utilisation de paramètres au chargement du module et création d'une entrée dans /proc.
 
 ![image](https://github.com/user-attachments/assets/4350da24-52d0-4a65-9817-c70d27e2f500)
 
@@ -347,5 +347,21 @@ install :
 ```
 ![image](https://github.com/user-attachments/assets/35248af6-c30b-4b22-bc10-d789d53c6bf4)
 
-## Timer:
+### Timer:
+
 ![image](https://github.com/user-attachments/assets/e3db74cd-8286-4884-9ac7-b8d47fce6894)
+
+## 2.3 CrossCompilation de modules noyau
+
+### 2.3.0 Récupération du Noyau Terasic
+
+**Uname -a**
+
+![image](https://github.com/user-attachments/assets/af07dbf0-0e7b-4a68-9253-40d151091e71)
+
+### 2.3.1 Préparation de la compilation
+
+
+
+
+

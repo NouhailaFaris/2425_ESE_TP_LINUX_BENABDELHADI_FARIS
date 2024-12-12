@@ -296,3 +296,21 @@ On a créer le fichier regictre2.c pour faire un chenillard des 3 premiers leds 
 ### Test lsmod :
 ![image](https://github.com/user-attachments/assets/6cb26558-ab0d-451e-b3b0-e020b9ba8458)
 
+```
+#include <linux/module.h>
+#include <linux/kernel.h>
+#include <linux/init.h>
+
+static int param = 1; // Paramètre par défaut
+module_param(param, int, S_IRUGO); // Permet de définir un paramètre au chargement
+MODULE_PARM_DESC(param, "A parameter for demonstration");
+```
+![image](https://github.com/user-attachments/assets/38a05a3f-a058-4a8c-96d7-cd1d8b53a56b)
+L'erreur qu'on a , ERROR: could not insert module hello.ko: File exists, indique que le module hello.ko est déjà chargé dans le noyau.
+![image](https://github.com/user-attachments/assets/ce5a33c5-a074-4c69-a4e1-33137094426b)
+
+solution :
+1-Déchargez le module existant
+2-Rechargez le module avec un paramètre
+![image](https://github.com/user-attachments/assets/a2fc2656-da65-4788-ad44-8c8846d9cf92)
+

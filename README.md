@@ -324,3 +324,23 @@ L'erreur qu'on a :**ERROR: could not insert module hello.ko: File exists**, indi
 ## Utilisation de paramètres au chargement du module et création d'une entrée dans /proc.
 
 ![image](https://github.com/user-attachments/assets/4350da24-52d0-4a65-9817-c70d27e2f500)
+probléme:
+
+![image](https://github.com/user-attachments/assets/ff656704-e61c-4135-a2fe-57f35297007f)
+
+contenu fichier make :
+```
+obj-m:=hello.o
+KERNEL_SOURCE=/lib/modules/$(shell uname -r)/build
+
+all :
+	make -C $(KERNEL_SOURCE) M=$(PWD) modules
+clean :
+	make -C $(KERNEL_SOURCE) M=$(PWD) clean
+install :
+	make −C $(KERNEL_SOURCE) M=$(PWD) modules install
+```
+ solution :
+ ```
+ obj-m += timer_module.o
+```

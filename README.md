@@ -278,7 +278,7 @@ On a créer le fichier regictre2.c pour faire un chenillard des 3 premiers leds 
 
 ![image](https://github.com/user-attachments/assets/162572aa-547f-41e1-9fc9-615c590100e5)
 
-Apres le televhargement du makefile et du hello.c on a executer make 
+Apres le telechargement du makefile et du hello.c on a executer la commande **make**: 
 
 ![image](https://github.com/user-attachments/assets/fd128dee-4536-4e4d-a2e7-ee3562a2acc3)
 

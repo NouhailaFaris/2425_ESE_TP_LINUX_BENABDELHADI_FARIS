@@ -361,6 +361,8 @@ install :
 
 ### 2.3.1 Préparation de la compilation
 
+![image](https://github.com/user-attachments/assets/cd3cdab9-443b-4154-905d-c985b4ec3e59)
+
 
 
 

@@ -411,4 +411,7 @@ cp soc_system.dts ~/TP/
 
 ![image](https://github.com/user-attachments/assets/4b523808-b440-42c6-8f9b-e5aa95fa9938)
 
+Ajouter dans makefile 
+
+![image](https://github.com/user-attachments/assets/96418cf2-bde3-4085-aa0a-5cacdc63f5de)
 

@@ -391,3 +391,7 @@ On a envoyé le fichier à la VM et le renommé
 
 # TP3
 ## Device tree
+### Recherche le fichier texte
+![image](https://github.com/user-attachments/assets/a531d2b7-abee-4498-875c-39602391073f)
+
+

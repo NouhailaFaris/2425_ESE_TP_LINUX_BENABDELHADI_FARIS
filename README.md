@@ -394,4 +394,6 @@ On a envoyé le fichier à la VM et le renommé
 ### Recherche le fichier texte
 ![image](https://github.com/user-attachments/assets/a531d2b7-abee-4498-875c-39602391073f)
 
+Déplacement du fichier :
+cp soc_system.dts ~/TP/
 

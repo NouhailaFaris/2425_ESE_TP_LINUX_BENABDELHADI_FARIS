@@ -409,5 +409,6 @@ cp soc_system.dts ~/TP/
 
 ![image](https://github.com/user-attachments/assets/ea2f432f-9e7a-4826-9fe9-076d0b5f59e2)
 
+![image](https://github.com/user-attachments/assets/4b523808-b440-42c6-8f9b-e5aa95fa9938)
 
 

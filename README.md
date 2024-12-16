@@ -427,3 +427,14 @@ Envoi vers la carte CD:
 
 
 ![WhatsApp Image 2024-12-16 at 16 07 27](https://github.com/user-attachments/assets/cc10d799-d171-42f5-9d23-96c618351307)
+
+
+### Test du  fichier:
+
+| **Fonction** | **Rôle** | **Moment d'exécution** |
+|--------------|----------|------------------------|
+| **`probe`** | Initialise le périphérique lorsqu'il est détecté (registre mémoire, fichier `/dev`). | Lors du chargement du module (`insmod`). |
+| **`read`**  | Lit la valeur actuelle des LEDs et la transmet à l'espace utilisateur. | Lors d'une lecture du fichier `/dev/ensea_leds`. |
+| **`write`** | Écrit une nouvelle valeur dans les registres pour contrôler les LEDs. | Lors d'une écriture dans `/dev/ensea_leds`. |
+| **`remove`** | Libère les ressources, désactive les LEDs, et désenregistre le périphérique `/dev`. | Lors du retrait du module (`rmmod`). |
+

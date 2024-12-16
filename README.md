@@ -384,3 +384,7 @@ On a envoyé le fichier à la VM et le renommé
 **Makefile**
 
 ![WhatsApp Image 2024-12-16 at 14 38 54](https://github.com/user-attachments/assets/5b2d5e24-0dbb-4287-bbe0-db3840b6180d)
+
+**chargement et test sur la Carte**
+
+![image](https://github.com/user-attachments/assets/d2092a3c-9001-40d1-a005-8a0b68a3f467)

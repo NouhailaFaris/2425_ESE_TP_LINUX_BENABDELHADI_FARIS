@@ -419,3 +419,11 @@ Ajouter dans makefile
 
 Envoi vers la carte CD:
 ![image](https://github.com/user-attachments/assets/19bda25d-e8f0-4f21-a8c1-8036a5fc7d87)
+
+
+**Chargement, test et verification des logs**
+
+![image](https://github.com/user-attachments/assets/7354aea7-5949-48b2-a286-b808543d5057)
+
+
+![WhatsApp Image 2024-12-16 at 16 07 27](https://github.com/user-attachments/assets/cc10d799-d171-42f5-9d23-96c618351307)

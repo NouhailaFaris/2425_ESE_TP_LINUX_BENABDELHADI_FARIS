@@ -397,3 +397,5 @@ On a envoyé le fichier à la VM et le renommé
 Déplacement du fichier :
 cp soc_system.dts ~/TP/
 
+![image](https://github.com/user-attachments/assets/8dc6a1d2-3f63-42ab-ac57-2f5271136dbd)
+

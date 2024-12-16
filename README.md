@@ -417,3 +417,5 @@ Ajouter dans makefile
 
 ![image](https://github.com/user-attachments/assets/3d3631cc-fd79-4276-9fae-45256573966b)
 
+Envoi vers la carte CD:
+![image](https://github.com/user-attachments/assets/19bda25d-e8f0-4f21-a8c1-8036a5fc7d87)

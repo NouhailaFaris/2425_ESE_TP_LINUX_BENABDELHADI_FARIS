@@ -193,62 +193,9 @@ d'autre leds(led 2):
 
 ## Chenillard
 
-Réalisation du code du Chenillard (Teest.c)
+**Réalisation du code du Chenillard**: ( le code est déposé sur git :Teest.c)
 
-```
-#include <stdio.h>
-#include <unistd.h>
-#include <fcntl.h>
-#include <string.h>
-
-#define LED_PATH "/sys/class/leds/fpga_led%d/brightness"
-#define NUM_LEDS 4  // Nombre total de LEDs disponibles
-#define DELAY 200000 // Délai en microsecondes (200 ms)
-
-void set_led(int led, int value) {
-    char path[50];
-    int fd;
-
-    // Construire le chemin du fichier correspondant à la LED
-    snprintf(path, sizeof(path), LED_PATH, led);
-
-    // Ouvrir le fichier en écriture
-    fd = open(path, O_WRONLY);
-    if (fd < 0) {
-        perror("Erreur d'ouverture du fichier LED");
-        return;
-    }
-
-    // Écrire la valeur dans le fichier (1 pour allumer, 0 pour éteindre)
-    if (write(fd, value ? "1" : "0", 1) < 0) {
-        perror("Erreur lors de l'écriture dans le fichier LED");
-    }
-
-    // Fermer le fichier
-    close(fd);
-}
-
-int main() {
-    while (1) {
-        // Allumer les LEDs une par une dans l'ordre
-        for (int i = 0; i < NUM_LEDS; i++) {
-            set_led(i, 1);  // Allumer la LED
-            usleep(DELAY);  // Attendre un délai
-            set_led(i, 0);  // Éteindre la LED
-        }
-
-        // Allumer les LEDs dans l'ordre inverse (optionnel)
-        for (int i = NUM_LEDS - 1; i >= 0; i--) {
-            set_led(i, 1);  // Allumer la LED
-            usleep(DELAY);  // Attendre un délai
-            set_led(i, 0);  // Éteindre la LED
-        }
-    }
-
-    return 0;
-}
-```
-
+**l'envoie du Code teest.o vers la carte**
 ![image](https://github.com/user-attachments/assets/9bb0c7c5-82d8-4d45-b52a-27dc3e2b7c9f)
 
 
@@ -273,7 +220,7 @@ On a créer le fichier regictre2.c pour faire un chenillard des 3 premiers leds 
   
 - **Prototypage uniquement** : 
   Cette méthode est utile pour tester rapidement une fonctionnalité, mais elle n'est pas adaptée pour un déploiement en production.
-
+## 2.2 Compilation de module noyau sur la VM
 ### Télechargement des paquets pour compilation des modules noyau dans la VM:
 
 ![image](https://github.com/user-attachments/assets/162572aa-547f-41e1-9fc9-615c590100e5)
@@ -355,6 +302,8 @@ install :
 
 ### 2.3.0 Récupération du Noyau Terasic
 
+Partie déjà faite pour tester on execute Uname -a
+
 **Uname -a**
 
 ![image](https://github.com/user-attachments/assets/af07dbf0-0e7b-4a68-9253-40d151091e71)
@@ -363,15 +312,28 @@ install :
 
 ![image](https://github.com/user-attachments/assets/cd3cdab9-443b-4154-905d-c985b4ec3e59)
 
+ le chemin vers les compilateurs : **/usr/bin/arm-linux-gnueabihf-gcc**
 
 ### 2.3.2 Récupéreation de la configuration actuelle du noyau
 
 On a envoyé le fichier à la VM et le renommé 
 ![WhatsApp Image 2024-12-12 at 11 30 26](https://github.com/user-attachments/assets/c88397b0-fc86-4d57-ae8f-8d67976502d6)
 
-**Configuration du environnement pour la compilation croisée :** (on a <chemin_arm-linux-gnueabihf-> par le chemin correct vers votre compilateur croisé, sans le gcc final. Pour nous c'est /usr/bin/arm-linux-gnueabihf-.)
+**Configuration du environnement pour la compilation croisée :** (on a <chemin_arm-linux-gnueabihf-> par le chemin correct vers votre compilateur croisé, sans le gcc final.)
+
+Pour nous c'est **/usr/bin/arm-linux-gnueabihf-**.
 
 ![WhatsApp Image 2024-12-12 at 11 35 19](https://github.com/user-attachments/assets/478fdea4-b658-4a92-8398-b1d216460934)
+
+### — Quel est le rôle des lignes commençant par export ?
+
+-Exporter une ressource (par exemple, un GPIO, une LED, ou un périphérique).
+
+-Cela rend un périphérique accessible depuis l'espace utilisateur ou visible pour d'autres modules/drivers.
+
+-Dans le contexte des GPIOs, export permet de rendre un GPIO visible dans le répertoire /sys/class/gpio/.
+
+
 
 **Make prepare:**
 

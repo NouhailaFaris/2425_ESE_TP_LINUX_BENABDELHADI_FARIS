@@ -373,24 +373,30 @@ Ces commandes génèrent les fichiers nécessaires pour la compilation de module
 
 # TP3
 ## Device tree
+
+**Telechargement du fichier VEEK-MT2S_v.1.0.3_SystemCD.zip**
+
+![image](https://github.com/user-attachments/assets/9b6d3f9d-1497-44fc-af38-9904b91538dc)
+
 ### Recherche le fichier texte
 ![image](https://github.com/user-attachments/assets/a531d2b7-abee-4498-875c-39602391073f)
 
-
 Déplacement du fichier :
-cp soc_system.dts ~/TP/
+**cp soc_system.dts ~/TP/**
+
+**Remarque: le dossier TP est le nouveau dossier créer dans TP2 2.3.3**
 
 ![image](https://github.com/user-attachments/assets/8dc6a1d2-3f63-42ab-ac57-2f5271136dbd)
 
-
-## TP3
-
+Montage de la partition
 ![image](https://github.com/user-attachments/assets/442df195-51d1-498d-a7fa-9623273830e1)
 
 ![image](https://github.com/user-attachments/assets/1a2824a0-816b-4309-93ab-3450a223977c)
 
+Renommez le fichier dtb en .old 
 ![image](https://github.com/user-attachments/assets/ea2f432f-9e7a-4826-9fe9-076d0b5f59e2)
 
+Envoie du Nouveau Fichier
 ![image](https://github.com/user-attachments/assets/4b523808-b440-42c6-8f9b-e5aa95fa9938)
 
 Ajouter dans makefile 

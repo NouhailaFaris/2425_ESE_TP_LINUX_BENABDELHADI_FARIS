@@ -228,8 +228,8 @@ sudo apt install linux-headers-amd64 bc
 ```
 
 ![image](https://github.com/user-attachments/assets/162572aa-547f-41e1-9fc9-615c590100e5)
-- **Compilation et test**
-- 
+**Compilation et test**
+
 Apres le telechargement du makefile et du hello.c on a executer la commande **make**: 
 
 ![image](https://github.com/user-attachments/assets/fd128dee-4536-4e4d-a2e7-ee3562a2acc3)
@@ -354,11 +354,20 @@ Pour nous c'est **/usr/bin/arm-linux-gnueabihf-**.
 
 Ces commandes génèrent les fichiers nécessaires pour la compilation de modules, comme les fichiers d'en-tête et les scripts.
 
-**Makefile**
+### 2.3.3 Hello World
+
+**Modification du Makefile**
+
+- Mise à jour le chemin vers le noyau
+- Ajouter CFLAGS_MODULE=-fno-pic
 
 ![WhatsApp Image 2024-12-16 at 14 38 54](https://github.com/user-attachments/assets/5b2d5e24-0dbb-4287-bbe0-db3840b6180d)
 
 **chargement et test sur la Carte**
+
+-Modification de l'emplacement des fichiers en dehors du dossier SRC
+-Execution du makefile et envoie du fichier hello.ko
+-Test avec insmod et dmesg|tail
 
 ![image](https://github.com/user-attachments/assets/d2092a3c-9001-40d1-a005-8a0b68a3f467)
 

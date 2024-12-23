@@ -365,9 +365,9 @@ Ces commandes génèrent les fichiers nécessaires pour la compilation de module
 
 **chargement et test sur la Carte**
 
--Modification de l'emplacement des fichiers en dehors du dossier SRC
--Execution du makefile et envoie du fichier hello.ko
--Test avec insmod et dmesg|tail
+- Modification de l'emplacement des fichiers en dehors du dossier SRC
+- Execution du makefile et envoie du fichier hello.ko
+- Test avec insmod et dmesg|tail
 
 ![image](https://github.com/user-attachments/assets/d2092a3c-9001-40d1-a005-8a0b68a3f467)
 

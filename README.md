@@ -202,6 +202,7 @@ d'autre leds(led 2):
 ### execution du Chenillard dans le SSH
 
 ![image](https://github.com/user-attachments/assets/9dc9b490-401d-4d43-8055-dcafbf9d08e1)
+
 # 2 Modules kernel (TP2)
 
 ## 2.1 Accès aux registres
@@ -222,9 +223,13 @@ On a créer le fichier regictre2.c pour faire un chenillard des 3 premiers leds 
   Cette méthode est utile pour tester rapidement une fonctionnalité, mais elle n'est pas adaptée pour un déploiement en production.
 ## 2.2 Compilation de module noyau sur la VM
 ### Télechargement des paquets pour compilation des modules noyau dans la VM:
+```
+sudo apt install linux-headers-amd64 bc
+```
 
 ![image](https://github.com/user-attachments/assets/162572aa-547f-41e1-9fc9-615c590100e5)
-
+- **Compilation et test**
+- 
 Apres le telechargement du makefile et du hello.c on a executer la commande **make**: 
 
 ![image](https://github.com/user-attachments/assets/fd128dee-4536-4e4d-a2e7-ee3562a2acc3)
@@ -243,8 +248,10 @@ Apres le telechargement du makefile et du hello.c on a executer la commande **ma
 
 
 ### Test lsmod : (afficher la liste des modules actuellement chargés dans le noyau Linux)
+
 ![image](https://github.com/user-attachments/assets/6cb26558-ab0d-451e-b3b0-e020b9ba8458)
 
+### utilisation de paramètres au chargement du module:²
 ```
 #include <linux/module.h>
 #include <linux/kernel.h>

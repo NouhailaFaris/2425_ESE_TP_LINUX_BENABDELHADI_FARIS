@@ -350,6 +350,10 @@ Pour nous c'est **/usr/bin/arm-linux-gnueabihf-**.
 
 ![WhatsApp Image 2024-12-12 at 11 37 36](https://github.com/user-attachments/assets/109ffa57-0925-4aaa-a881-8fdbeae78807)
 
+#### Pourquoi make prepare et make scripts ?
+
+Ces commandes génèrent les fichiers nécessaires pour la compilation de modules, comme les fichiers d'en-tête et les scripts.
+
 **Makefile**
 
 ![WhatsApp Image 2024-12-16 at 14 38 54](https://github.com/user-attachments/assets/5b2d5e24-0dbb-4287-bbe0-db3840b6180d)

@@ -389,27 +389,26 @@ Déplacement du fichier :
 
 ![image](https://github.com/user-attachments/assets/8dc6a1d2-3f63-42ab-ac57-2f5271136dbd)
 
-Montage de la partition
+**Montage de la partition**
 
 ![image](https://github.com/user-attachments/assets/442df195-51d1-498d-a7fa-9623273830e1)
 
 ![image](https://github.com/user-attachments/assets/1a2824a0-816b-4309-93ab-3450a223977c)
 
-Renommez le fichier dtb en .old 
+**Renommez le fichier dtb en .old** 
 ![image](https://github.com/user-attachments/assets/ea2f432f-9e7a-4826-9fe9-076d0b5f59e2)
 
-Envoie du Nouveau Fichier
+**Envoie du Nouveau Fichier**
 ![image](https://github.com/user-attachments/assets/4b523808-b440-42c6-8f9b-e5aa95fa9938)
 
-Ajouter dans makefile 
+**Ajouter dans le makefile: gpio-leds.o**
 
 ![image](https://github.com/user-attachments/assets/96418cf2-bde3-4085-aa0a-5cacdc63f5de)
 
 ![image](https://github.com/user-attachments/assets/3d3631cc-fd79-4276-9fae-45256573966b)
 
-Envoi vers la carte CD:
+**Envoi vers la carte CD:**
 ![image](https://github.com/user-attachments/assets/19bda25d-e8f0-4f21-a8c1-8036a5fc7d87)
-
 
 **Chargement, test et verification des logs**
 

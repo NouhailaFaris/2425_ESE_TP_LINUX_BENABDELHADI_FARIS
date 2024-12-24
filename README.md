@@ -228,6 +228,7 @@ sudo apt install linux-headers-amd64 bc
 ```
 
 ![image](https://github.com/user-attachments/assets/162572aa-547f-41e1-9fc9-615c590100e5)
+
 **Compilation et test**
 
 Apres le telechargement du makefile et du hello.c on a executer la commande **make**: 
@@ -389,6 +390,7 @@ Déplacement du fichier :
 ![image](https://github.com/user-attachments/assets/8dc6a1d2-3f63-42ab-ac57-2f5271136dbd)
 
 Montage de la partition
+
 ![image](https://github.com/user-attachments/assets/442df195-51d1-498d-a7fa-9623273830e1)
 
 ![image](https://github.com/user-attachments/assets/1a2824a0-816b-4309-93ab-3450a223977c)
